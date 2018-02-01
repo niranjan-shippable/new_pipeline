@@ -1,0 +1,7 @@
+jobs:      
+  - name: test-pipeline
+    type: runSh
+    steps:
+      - TASK:
+        - script: uname -a
+        - script: az --version
